@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Insider of TV-Series</title>
+        <link rel="stylesheet" href="series.css">
+    </head>
+    <body>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+        <header>
+            <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+            </ul>
+            </nav>
+            <hr>
+            <h1>The Insider of TV-Series</h1>
+        </header>
+
+              <h2>In this section, we'll be covering my favourite TV-Series that i watched in the last couple years</h2>
+        <section>
+            <div class="container">
+                <div id="test1">
+                    here you'll find the title and desctiption of the series
+                    <br>
+                    <a class="goback" onclick="function2('test1')">click me</a>
+                </div>
+                click on the picture
+                <img src="Images/Dali.jpg" class="posters" alt="series poster" onclick="function1('test1')" height="200px" width="200px">
+            </div>
+            <script>
+                function function1(x) {
+                    document.getElementById(x).style.display="block";
+                }
+                function function2(x) {
+                    document.getElementById(x).style.display="none";
+                }
+            </script>
+        </section>
+
+        <section>
+        <hr>
+        <h4> if you got any bright ideas about making the website better, feel free to contact me on my social media down below:
+        </h4>
+        <hr>
+        </section>
+        <footer>
+            <div>
+                <span><img class="icons" src="Images/instagram.png"></span>
+                <span><img class="icons" src="Images/facebook.png"></span>
+                <span><img class="icons" src="Images/linkedin.png"></span>
+                <span><img class="icons" src="Images/gmail.png"></span>
+            </div>
+        </footer>
+    </body>
+</html>
